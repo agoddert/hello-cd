@@ -10,7 +10,7 @@ agent:
     os_image: ubuntu1804
 blocks:
   - name: Simple example
-    task:
+    task: /
       env_vars:
         - name: APP_ENV
           value: prod
